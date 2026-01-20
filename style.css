@@ -166,12 +166,21 @@ a {
     transition: font-size 250ms linear 0ms;
 }
 
+.capstone_links a{
+    font-size: 40px;
+    transition: font-size 250ms linear 0ms;
+}
+
+.capstone_links a:hover {
+    font-size: 50px;
+}
+
 .text a:visited {
     color:blue;
 }
 
 .home a:hover, .text a:hover, .nav a:hover {
-    font-size:25px;
+    font-size: 25px;
 }
 
 .box {
@@ -199,6 +208,7 @@ a {
     background-size: cover;
     border-radius: 3%;
     padding-bottom: 1%;
+    text-align: center;
 }
 
 .kaggle img {
